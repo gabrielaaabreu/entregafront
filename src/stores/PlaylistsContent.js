@@ -4,8 +4,8 @@ import { defineStore } from 'pinia'
 export const playlistsContent = ref([
         {
             id: 1,
-            nome: 'Lush Lofi',
-            capa: "../images/lush-lofi-playlist_resized.png",
+            nome: 'Sunset Lofi',
+            capa: "../images/sunset_lofi.jpg",
             musicas: [
                 {
                     id: 10,
@@ -23,28 +23,28 @@ export const playlistsContent = ref([
         },
         {
             id: 2,
-            nome: 'Chill Lofi Beats',
-            capa: "../images/chill-lofi-beats_resized.png"
+            nome: 'Lazy Day Lofi',
+            capa: "../images/lazy_lofi.jpg"
         },
         {
             id: 3,
             nome: 'Lofi Beats',
-            capa: "../images/lofi-music.jpeg"
+            capa: "../images/aesthetic_lofi.png"
         },
         {
             id: 4,
             nome: 'Lofi',
-            capa: "../images/lofi_resized.png"
+            capa: "../images/new_york.jpg"
         },
         {
             id: 5,
             nome: 'Chill Study Beats',
-            capa: "../images/study-beats-lofi_resized.png"
+            capa: "../images/lofi_girl.jpg"
         },
         {
             id: 6,
             nome: 'Study Lofi',
-            capa: "../images/study-lofi_resized.png"
+            capa: "../images/study_lofi.jpg"
         },
         {
             id: 7,
