@@ -5,8 +5,9 @@ import { playlistsContent } from '../stores/PlaylistsContent';
 import { playlistSelecionada } from '../stores/PlaylistAtual' 
 
 function getImageUrl(name) {
-    return new URL(`../images/${name}`,import.meta.url).href
+    return new URL(`${name}`,import.meta.url).href
 }
+
 </script>
 <template>
     <div class="columns-4">

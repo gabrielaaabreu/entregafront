@@ -5,7 +5,7 @@ export const playlistsContent = ref([
         {
             id: 1,
             nome: 'Lush Lofi',
-            capa: "../images/lush-lofi-playlist.jpg",
+            capa: "../images/lush-lofi-playlist_resized.png",
             musicas: [
                 {
                     id: 10,
@@ -24,26 +24,36 @@ export const playlistsContent = ref([
         {
             id: 2,
             nome: 'Chill Lofi Beats',
-            capa: "chill-lofi-beats.jpg"
+            capa: "../images/chill-lofi-beats_resized.png"
         },
         {
             id: 3,
             nome: 'Lofi Beats',
-            capa: "lofi-beats.jpg"
+            capa: "../images/lofi-music.jpeg"
         },
         {
             id: 4,
             nome: 'Lofi',
-            capa: "lofi.jpg"
+            capa: "../images/lofi_resized.png"
         },
         {
             id: 5,
-            nome: 'Chill Lofi Study Beats',
-            capa: "study-beats-lofi.jpg"
+            nome: 'Chill Study Beats',
+            capa: "../images/study-beats-lofi_resized.png"
         },
         {
             id: 6,
             nome: 'Study Lofi',
-            capa: "study-lofi.jpg"
-        }
+            capa: "../images/study-lofi_resized.png"
+        },
+        {
+            id: 7,
+            nome: 'Lofi Rain',
+            capa: "../images/R.jpeg"
+        },
+        {
+            id: 8,
+            nome: 'Relaxing Music',
+            capa: "../images/capa-lofi.jpeg"
+        },
     ])
